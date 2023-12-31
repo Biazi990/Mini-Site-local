@@ -1,2 +1,5 @@
-# Mini-Site-local
-Criação de um site com o armazenamento local, usando estruturação do HTML, CSS como editor de estilos e JavaScript como linguagem de interação.
+# Mini site - Local
+Opa, tudo tranquilo?  😁 
+
+Nesse mini projetinho realizei a criação de um site com mudanças de estilos (Dark e white) linkado a um seletor button integrado a um arquivo JS. 
+
