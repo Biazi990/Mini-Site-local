@@ -1,0 +1,74 @@
+:root {
+    --green: #FF00FF; 
+    --white: #FFC0CB;
+    --black: #A52A2A; 
+    
+}
+
+* {
+    color: var(--fontColor);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body {
+
+    background: var(--bg);
+    ul{
+
+        font-family: 'Times New Roman', Times, serif
+    }
+
+}
+
+li{list-style: circle;
+
+}
+
+.list{
+    list-style: square;
+}
+
+
+.ligth-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --botaback:var(--black);
+    --botaFontolor: var(--white);
+
+    
+}
+
+.dark{
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --botaback: var(--white);
+    --botaFontColor: var(--green);
+
+}
+
+.bota{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color:  var(--botaFontColor);
+    background-color:var(--botaback) ;
+
+}
+
+
+.bota:focus{
+    outline-style:none;
+
+
+}
+
+
+
+
+
